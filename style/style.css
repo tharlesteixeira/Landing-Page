@@ -9,13 +9,13 @@ html, body{
     height: 100vh;
     width: 100vw;
 }
+
 body{
-    background-image: url('../img/background-com.png');
+    background: url('../img/background-com3.png') no-repeat center center;
     background-size: cover;
-    
-    color: rgba(255, 255, 255, 0.589);
-    
+    background-color: rgba(255, 255, 255, 0.5);
 }
+
 
 strong{
     color: yellow;
@@ -25,11 +25,13 @@ main{
     position: absolute;
     bottom: 30%;
 }
+
 section{
     text-align: justify;
     font-weight: bold;
     font-size: 22px;
-} 
+    color: rgba(255, 255, 255, 0.589);
+}
 
 button{
     position: absolute;
@@ -40,9 +42,16 @@ button{
     background-color: aqua;
     font-weight: bold;
     font-size: 20px;
-
 }
-button:hover{
-    
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+form:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719);
+    transition: transform .5s, border 1s ;
 }
 
